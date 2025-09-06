@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crazy_Risk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+323a9b3432314c8ab0f644fb540ba601b5f709e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crazy_Risk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crazy_Risk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

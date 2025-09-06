@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\Crazy_Risk\\Crazy_Risk\\Crazy_Risk.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Crazy_Risk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\Crazy_Risk\\Crazy_Risk\\Crazy_Risk.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Crazy_Risk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Crazy_Risk\\Crazy_Risk\\Crazy_Risk.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Crazy_Risk.csproj",
         "projectName": "Crazy_Risk",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Crazy_Risk\\Crazy_Risk\\Crazy_Risk.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Crazy_Risk.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Crazy_Risk\\Crazy_Risk\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

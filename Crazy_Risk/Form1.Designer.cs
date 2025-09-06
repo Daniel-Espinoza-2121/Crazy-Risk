@@ -82,7 +82,7 @@
             menú_incio.Controls.Add(label1);
             menú_incio.Controls.Add(boton_invitado);
             menú_incio.Controls.Add(boton_host);
-            menú_incio.Location = new Point(536, 189);
+            menú_incio.Location = new Point(531, 206);
             menú_incio.Name = "menú_incio";
             menú_incio.Size = new Size(183, 108);
             menú_incio.TabIndex = 2;
@@ -94,8 +94,10 @@
             BackgroundImage = Properties.Resources._1200px_Risk_game_map;
             ClientSize = new Size(1184, 575);
             Controls.Add(menú_incio);
+            MaximumSize = new Size(1200, 614);
+            MinimumSize = new Size(1200, 614);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Crazy Risk";
             menú_incio.ResumeLayout(false);
             menú_incio.PerformLayout();
             ResumeLayout(false);
