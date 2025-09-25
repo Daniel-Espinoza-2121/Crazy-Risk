@@ -1,4 +1,2 @@
-bin/
-obj/
-*csproj
-.vs/
+/.vs
+/Crazy_Risk/obj
