@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|c:\\users\\dell\\desktop\\crazy-risk\\crazy_risk\\serverclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|solutionrelative:crazy_risk\\serverclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|c:\\users\\dell\\desktop\\crazy-risk\\crazy_risk\\server_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|solutionrelative:crazy_risk\\server_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|c:\\users\\dell\\desktop\\crazy-risk\\crazy_risk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|c:\\users\\dell\\desktop\\crazy-risk\\crazy_risk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|solutionrelative:crazy_risk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|C:\\Users\\Dell\\Desktop\\Crazy-Risk\\crazy_risk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{38FAD43B-FB67-4D52-8620-227EF63F84BD}|Crazy_Risk\\Crazy_Risk.csproj|solutionrelative:crazy_risk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,32 +22,44 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServerClient.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\ServerClient.cs",
-              "RelativeDocumentMoniker": "Crazy_Risk\\ServerClient.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\ServerClient.cs",
-              "RelativeToolTip": "Crazy_Risk\\ServerClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Form1.cs",
+              "RelativeDocumentMoniker": "Crazy_Risk\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Form1.cs",
+              "RelativeToolTip": "Crazy_Risk\\Form1.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T03:52:40.622Z",
+              "WhenOpened": "2025-09-17T05:16:02.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Form1.cs",
               "RelativeDocumentMoniker": "Crazy_Risk\\Form1.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Crazy_Risk\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T03:40:14.406Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-09-17T05:15:57.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Server_Client.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Server_Client.cs",
+              "RelativeDocumentMoniker": "Crazy_Risk\\Server_Client.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Crazy-Risk\\Crazy_Risk\\Server_Client.cs",
+              "RelativeToolTip": "Crazy_Risk\\Server_Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T05:10:51.359Z",
+              "EditorCaption": ""
             }
           ]
         },
