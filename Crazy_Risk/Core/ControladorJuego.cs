@@ -579,13 +579,7 @@ namespace CrazyRisk.Core
         {
             Jugador[] todosJugadores = Jugadores.ObtenerTodos();
             TurnoActual = (TurnoActual + 1) % todosJugadores.Length;
-            // Si es Neutral, asigna un tropa automaticamente
-            var jugadorActual = ObtenerJugadorActual();
-            if (jugadorActual.EsNeutral && jugadorActual.TropasDisponibles > 0)
-            { ColocarTropasNeutralAleatoriamente(); }
-
-            int nuevoTurno = (TurnoActual + 1) % todosJugadores.Length;
-            TurnoActual = nuevoTurno;
+           
         }
 
         public Jugador ObtenerJugadorActual()
@@ -640,3 +634,4 @@ namespace CrazyRisk.Core
 
     }
 }
+
