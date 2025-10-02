@@ -32,8 +32,8 @@
             boton_invitado = new Button();
             boton_host = new Button();
             label1 = new Label();
-            menú_incio = new Panel();
-            menú_incio.SuspendLayout();
+            menu_incio = new Panel();
+            menu_incio.SuspendLayout();
             SuspendLayout();
             // 
             // boton_salir
@@ -75,17 +75,17 @@
             label1.TabIndex = 1;
             label1.Text = "Crasy Risk";
             // 
-            // menú_incio
+            // menu_incio
             // 
-            menú_incio.BackColor = Color.Transparent;
-            menú_incio.Controls.Add(boton_salir);
-            menú_incio.Controls.Add(label1);
-            menú_incio.Controls.Add(boton_invitado);
-            menú_incio.Controls.Add(boton_host);
-            menú_incio.Location = new Point(531, 206);
-            menú_incio.Name = "menú_incio";
-            menú_incio.Size = new Size(183, 108);
-            menú_incio.TabIndex = 2;
+            menu_incio.BackColor = Color.Transparent;
+            menu_incio.Controls.Add(boton_salir);
+            menu_incio.Controls.Add(label1);
+            menu_incio.Controls.Add(boton_invitado);
+            menu_incio.Controls.Add(boton_host);
+            menu_incio.Location = new Point(531, 206);
+            menu_incio.Name = "menu_incio";
+            menu_incio.Size = new Size(183, 108);
+            menu_incio.TabIndex = 2;
             // 
             // Form1
             // 
@@ -93,13 +93,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._1200px_Risk_game_map;
             ClientSize = new Size(1184, 575);
-            Controls.Add(menú_incio);
+            Controls.Add(menu_incio);
             MaximumSize = new Size(1200, 614);
             MinimumSize = new Size(1200, 614);
             Name = "Form1";
             Text = "Crazy Risk";
-            menú_incio.ResumeLayout(false);
-            menú_incio.PerformLayout();
+            menu_incio.ResumeLayout(false);
+            menu_incio.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -108,6 +108,6 @@
         private Button boton_invitado;
         private Button boton_host;
         private Label label1;
-        private Panel menú_incio;
+        private Panel menu_incio;
     }
 }

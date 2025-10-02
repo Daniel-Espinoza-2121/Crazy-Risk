@@ -1,7 +1,8 @@
-using System.Text;
-using System.Text.Json;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
+using System.Text.Json;
+using System.Windows.Forms;
 
 namespace Crazy_Risk
 {
@@ -64,8 +65,22 @@ namespace Crazy_Risk
         }
 
         private void _ejecutarComando(Mensaje mensaje)
-        {
-            
+        { 
+            try
+                {
+                if ((mensaje != null) && mensaje.Comando != null)
+                {
+                    //ejemplo de uso
+                    if (mensaje.Comando == "printInt")
+                    {
+                        Console.WriteLine(mensaje.Int1);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al ejecutar comando: {ex.Message}");
+            }
         }
 
         private void _IniciarLectura()
@@ -125,6 +140,15 @@ namespace Crazy_Risk
             this.Length = 0;
         }
 
+        public void EnviarATodos(Mensaje mensaje)
+        {
+            Jugador actual = this.Head;
+            while(actual  != null)
+            {
+                actual.enviarMensaje(mensaje);
+            }
+        }
+
         public void Add(TcpClient valor)
         {
             Jugador nuevo = new Jugador(valor);
@@ -137,12 +161,11 @@ namespace Crazy_Risk
             else
             {
                 Jugador actual = Head;
-                while (actual.Next != this.Head)
+                while (actual.Next != null)
                 {
                     actual = actual.Next!;
                 }
                 actual.Next = nuevo;
-                nuevo.Next = this.Head;
             }
             Length++;
             nuevo.IniciarLectura();
@@ -152,12 +175,12 @@ namespace Crazy_Risk
         {
             if (Head == null) return;
 
-            Jugador actual = Head;
-            Jugador previo = null!;
+            Jugador? actual = Head;
+            Jugador? previo = null;
 
-            do
+            while (actual != null)
             {
-                if (actual == valor)
+                if (actual.Equals(valor)) // Usa Equals (asegúrate de implementarlo en Jugador)
                 {
                     if (previo != null)
                         previo.Next = actual.Next;
@@ -169,10 +192,10 @@ namespace Crazy_Risk
                 }
 
                 previo = actual;
-                actual = actual.Next!;
+                actual = actual.Next;
             }
-            while (actual != Head);
         }
+
     }
 
     class Jugador

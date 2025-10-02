@@ -9,13 +9,13 @@ namespace Crazy_Risk
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            menú_incio.Left = (this.ClientSize.Width - menú_incio.Width) / 2;
-            menú_incio.Top = (this.ClientSize.Height - menú_incio.Height) / 2;
+            menu_incio.Left = (this.ClientSize.Width - menu_incio.Width) / 2;
+            menu_incio.Top = (this.ClientSize.Height - menu_incio.Height) / 2;
         }
 
         private void boton_host_Click(object sender, EventArgs e)
         {
-            menú_incio.Visible = false;
+            menu_incio.Visible = false;
             this.Size = new System.Drawing.Size(1200, 614);
         }
 
