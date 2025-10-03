@@ -11,6 +11,8 @@ namespace CrazyRisk.Core
         public int TropasAtacantesPerdidas { get; set; }
         public int TropasDefensorPerdidas { get; set; }
         public bool TerritorioConquistado { get; set; }
+        public int[] DadosAtacante { get; set; }
+        public int[] DadosDefensor { get; set; }
 
         public ResultadoCombate()
         {
@@ -52,6 +54,8 @@ namespace CrazyRisk.Core
             int[] dadosDef = LanzarDados(dadosDefensor);
 
             ResultadoCombate resultado = new ResultadoCombate();
+            resultado.DadosAtacante = dadosAtaq;
+            resultado.DadosDefensor = dadosDef;
 
             // Comparar dados
             int comparaciones = Math.Min(dadosAtacante, dadosDefensor);
@@ -71,3 +75,4 @@ namespace CrazyRisk.Core
         }
     }
 }
+
