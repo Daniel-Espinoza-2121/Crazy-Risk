@@ -547,7 +547,13 @@ namespace CrazyRisk.Core
         
         public void IniciarFaseRefuerzos()
         {
+            
             Jugador jugadorActual = ObtenerJugadorActual();
+            if (jugadorActual.TerritoriosControlados.Contar == 0){TerminarTurno();
+            return;}
+    
+        
+    
             int refuerzos = CalcularRefuerzosParaJugador(jugadorActual);
             jugadorActual.TropasDisponibles += refuerzos;
 
@@ -634,4 +640,5 @@ namespace CrazyRisk.Core
 
     }
 }
+
 
